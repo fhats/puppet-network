@@ -97,6 +97,7 @@ define network_if_base (
   $ipaddress,
   $netmask,
   $macaddress,
+  $if_type = 'Ethernet',
   $gateway = '',
   $bootproto = 'none',
   $userctl = false,
